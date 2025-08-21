@@ -64,7 +64,7 @@ function App() {
     div.addEventListener("mousedown", handleDivMouseDown);
     div.style.cursor = "grab";
 
-    (div as any).__dragHandler = handleDivMouseDown;
+    (div as any).__dragHandler = handleDivMouseDown; // eslint-disable-line @typescript-eslint/no-explicit-any
   }, []);
 
   const splitDiv = useCallback(
