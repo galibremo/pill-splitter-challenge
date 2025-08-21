@@ -464,7 +464,7 @@ function App() {
         </p>
         <p className="text-black">You can drag the pills using the mouse!</p>
         <p className="text-black">
-          Place the crosshair over the pill inorder to slice it!
+          Place the crosshair over the pill and click inorder to slice it!
         </p>
         <p className="text-black">The split sections are draggable!</p>
         <p className="text-black">
